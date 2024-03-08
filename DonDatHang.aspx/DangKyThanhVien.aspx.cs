@@ -39,7 +39,7 @@ namespace DonDatHang.aspx
                 kq += $"<li><i>Tên đăng nhập: {txtTenDN.Text}</i></li>";
                 kq += $"<li><i>Mật khẩu: {txtMK.Text}</i></li>";
                 kq += $"<li><i>Ngày sinh: {ddlNgay.SelectedValue}/{ddlThang.SelectedValue}/{ddlNam.SelectedValue}</i></li>";
-                kq += $"<li><i>Giới tính: {chkPhai.Text} </i></li>";
+                kq += $"<li><i>Giới tính: {(chkPhai.Checked? "Nam":"Nữ")} </i></li>";
                 kq += $"<li><i>Email: {txtEmail.Text}</i></li>";
                 kq += $"<li><i>Địa chỉ: {txtDiaChi.Text}</i></li>";
                 kq += $"<li><i>Điện thoại: {txtDienThoai.Text}</i></li>";
